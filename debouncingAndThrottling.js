@@ -19,3 +19,18 @@ const debounce = function (args) {
         }, 500);
     }
 }();
+
+//throttling function
+//function will be executed after certain time interval
+const throttling = function (limit) {
+    let flag = true;
+    return function () {
+        if (flag) {
+            getData();
+            flag = false
+        }
+        setTimeout(() => {
+            flag = true
+        }, limit)
+    }
+}
