@@ -9,11 +9,11 @@
 
 function fun() {
     var a = (b = c = 100);
-    delete a;
+    // delete a;
     console.log(a);
 }
 
-fun();
+// fun();
 
 
 
