@@ -15,8 +15,20 @@ function fun() {
 
 // fun();
 
+//const operation on arr
+const arr = [1, 2, 3]
 
+arr[0] = 10;
 
+// console.log(arr);
+
+const obj = {
+    name: 'vipul'
+}
+
+obj.name = {};
+
+// console.log(obj);
 
 
 
