@@ -7,13 +7,18 @@
 //     c = 10;
 // })();
 
-function fun() {
-    var a, b, c;
-    a = b = c = 1;
-    console.log(a, b, c);
-}
+// function fun() {
+//     // var a, b, c;
+//     var a = (b = c = 10);
+//     console.log(a, b, c);
+// }
 
-fun();
+// fun();
+
+
+var a, b, c;
+a = 10;
+console.log(a, b, c);
 
 //const operation on arr
 const arr = [1, 2, 3]
