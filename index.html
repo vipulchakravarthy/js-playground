@@ -3,32 +3,55 @@
 
 <head>
     <title>Vipul Chakravarthy</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
     <style>
         /* div {
-            min-width: 100px;
-            min-height: 100px;
-            border: 1px solid black;
-            padding: 30px;
+            width: 100px;
+            height: 100px;
+            color: white;
+            background-color: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 2 rem;
         } */
+
+        /* div { */
+        /* basic to rotate the element */
+        /* transform: rotate(.13turn) */
+
+        /* scale is to scale the element, first arg for x axis and second for y axis */
+        /* transform: scale(1.5); */
+
+        /* next translate, most important
+                moves the element in x or y direction
+                translateX(-40px)
+                translateY(-50px)
+             */
+        /* transform: translate(100%); */
+        /* } */
     </style>
     <link rel="stylesheet" href="./index.css">
 </head>
 
 <body>
-    <h1>Hey Bruh!!</h1>
-    <!-- <input type="text" id="search-bar" onkeyup="debounce()" /> -->
     <div>
-        <!-- <form action="">
-            <input type="text" class="input-field">
-        </form>
-        <button>Click me bro</button>
-        <p class="test">Hide me!!</p> -->
+        <div class="one">
+            <div class="one-one child">1.1</div>
+            <div class="one-two child">1.2</div>
+            <div class="one-three child">1.3</div>
+        </div>
+
+        <div class="two">
+            <div class="two-one child">2.1</div>
+            <div class="two-two child">2.2</div>
+        </div>
+
+        <button id="dark-theme-btn">Dark theme</button>
+        <button id="light-theme-btn">Light theme</button>
     </div>
     <script type="module" src="index.js"></script>
-    <script type="module" src="./mapReduceFilter.js"></script>
-    <!-- <script type="module" src="./dynamicModule.js"></script> -->
-    <!-- <script src="HigherOrderFunc.js"></script> -->
+    <script type="module" src="cssVariables.js"></script>
 </body>
 
 </html>

@@ -8,12 +8,12 @@
 // })();
 
 function fun() {
-    var a = (b = c = 100);
-    // delete a;
-    console.log(a);
+    var a, b, c;
+    a = b = c = 1;
+    console.log(a, b, c);
 }
 
-// fun();
+fun();
 
 //const operation on arr
 const arr = [1, 2, 3]
