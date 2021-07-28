@@ -1,3 +1,25 @@
-.div-class{
-    background-color: aqua;
+:root{
+    --div-background-color: red;
+    --text-color: black;
+    --div-padding: 5px;
+    --div-margin: 5px;    
+}
+
+body {
+    background-color: var(--background-color, pink)
+}
+
+.child{
+    background-color: var(--div-background-color);
+    color: var(--text-color);
+}
+
+.one{
+    --div-background-color: blue;
+    --text-color: white
+}
+
+.one-one{
+    margin: var(--div-margin);
+    padding: var(--div-padding);
 }
