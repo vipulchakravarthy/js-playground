@@ -35,7 +35,15 @@ obj.name = {};
 
 // console.log(obj);
 
+const call = {
+    caller: "mom",
+    says: () => {
+        console.log(`Hey, ${this} just called.`);
+    }
+};
 
+let newCall = call.says;
+newCall();
 
 
 

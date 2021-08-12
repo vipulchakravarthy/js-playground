@@ -1,12 +1,12 @@
 :root{
-    --div-background-color: red;
+    /* --div-background-color: red; */
     --text-color: black;
     --div-padding: 5px;
     --div-margin: 5px;    
 }
 
 body {
-    background-color: var(--background-color, pink)
+    /* background-color: var(--background-color, pink) */
 }
 
 .child{
